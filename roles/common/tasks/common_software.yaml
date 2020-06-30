@@ -6,4 +6,4 @@
 - name: install ripgrep
   apt:
     name: ripgrep
-    name: present
+    state: present
