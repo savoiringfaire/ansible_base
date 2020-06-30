@@ -1,4 +1,3 @@
 ---
-tasks:
-  - name: Install common software
-    include: common_software.yaml
+- name: Install common software
+  include: common_software.yaml
