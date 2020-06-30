@@ -1,2 +1,4 @@
 ---
-- import_playbook: common_software.yml
+tasks:
+  - name: Install common software
+    include: common_software.yaml
