@@ -7,3 +7,11 @@
   apt:
     name: ripgrep
     state: present
+- name: install iftop
+  apt:
+    name: iftop
+    state: present
+- name: install nload
+  apt:
+    name: nload
+    state: present
