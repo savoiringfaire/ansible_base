@@ -1,5 +1,9 @@
 ---
-- name: be sure vim is installed
+- name: install vim
   apt:
     name: vim
     state: present
+- name: install ripgrep
+  apt:
+    name: ripgrep
+    name: present
